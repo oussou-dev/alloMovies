@@ -4,7 +4,7 @@ import React, { Component } from "react"
 class MovieDetails extends Component {
     render() {
         return(
-            <div>
+            <div className="w-25">
                 Movie Details
             </div>
         )
