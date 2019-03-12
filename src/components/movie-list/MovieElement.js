@@ -4,10 +4,11 @@ class MovieElement extends Component {
 
     mouseEnter = () => {
         this.props.updateSelectedMovie(this.props.movie.title)
+        console.log(this.props.updateSelectedMovie(this.props.movie.title))
     }
 
     render() {
-        return(
+        return (
             <div onMouseEnter = {this.mouseEnter} className="w-50 p-2">
                 <div className="border d-flex">
                     <img width="150" height="200" alt="film" src={this.props.movie.img}/>
