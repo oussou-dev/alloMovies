@@ -4,7 +4,6 @@ class MovieElement extends Component {
 
     mouseEnter = () => {
         this.props.updateSelectedMovie(this.props.movie.title)
-        console.log(this.props.updateSelectedMovie(this.props.movie.title))
     }
 
     render() {

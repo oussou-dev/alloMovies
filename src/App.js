@@ -29,12 +29,16 @@ class App extends Component {
       }],
             selectedMovie: 0
         }
+
+        setTimeout(function(){
+
+        }, 2000)
     }
 
 
 updateSelectedMovie = (index) => {
     //const index = this.state.movies.findIndex( m => title === m.title )
-    this.setState = ({
+    this.setState({
         selectedMovie: index
     })
 }
