@@ -18,7 +18,7 @@ class App extends Component {
                 movies: dataMovies,
                 loaded: true
             })
-        }, 2000)
+        }, 500)
     }
 
 
